@@ -1,0 +1,13 @@
+$cor-primary: #321951;
+$cor-secondary: #313575;
+$cor-tertiary: #633090;
+$cor-contrast-primary: #fdc005;
+$cor-contrast-secondary: #f68318;
+$cor-contrast-tertiary: #b22e37;
+$fonte-texto: "Luckiest Guy", sans-serif;
+
+@mixin flexCenter($justify: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+}
