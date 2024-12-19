@@ -1,2 +1,21 @@
-@use './abstracts/base';
-@use './abstracts/variaveis';
+@import './abstracts/base';
+@import './abstracts/variaveis';
+
+.principal {
+    height: 100vh;
+    width: 100vw;
+    @include flexCenter();
+}
+
+.container-slots {
+    height: 70vh;
+    width: 60vw;
+    background-color: $cor-primary;
+    @include flexCenter;
+    column-gap: 5vw;
+    .slot {
+        width: 12vw;
+        height: 32vh;
+        background-color: grey;
+    }
+}

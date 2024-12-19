@@ -6,4 +6,28 @@
 
 body {
   font-family: "Luckiest Guy", sans-serif;
+}
+
+.principal {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-slots {
+  height: 70vh;
+  width: 60vw;
+  background-color: #321951;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 5vw;
+       column-gap: 5vw;
+}
+.container-slots .slot {
+  width: 12vw;
+  height: 32vh;
+  background-color: grey;
 }/*# sourceMappingURL=style.css.map */
